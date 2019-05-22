@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# crontab 50 23 * * * ~/ProxyRestart.sh
+# crontab 50 23 * * * ~/Restart.sh
 
 screen_name= #Screen name running BungeeCord
 bungeecord= #BungeeCord directory path
