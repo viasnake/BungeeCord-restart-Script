@@ -31,4 +31,4 @@ screen -r $screen_name -p0 -X stuff "alert Please reconnect after a few minutes.
 sleep 2s
 screen -r $screen_name -p0 -X stuff "end\015"
 sleep 10s
-cd $bungeecord && ./start.sh
+cd $bungeecord && ./$start_file
